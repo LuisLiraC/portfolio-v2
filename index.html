@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+    <title>Luis Lira - Portfolio</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="container-fluid pr-0 pl-0 sticky-top" id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" href="#">Luis Lira</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#about">Sobre mí</a>
+                        <a class="nav-item nav-link" href="#experience">Experiencia Profesional</a>
+                        <a class="nav-item nav-link" href="#education">Estudios</a>
+                        <a class="nav-item nav-link" href="#projects">Proyectos</a>
+                        <a class="nav-item nav-link" href="#contact">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <main class="container-fluid d-flex align-items-center" id="about" id="hero">
+        <div id="particles-js"></div>
+        <div class="container pb-4 pt-4 d-flex align-items-center justify-content-center" id="hero-cont">
+            <div class="row text-center">
+                <div class="col col-12">
+                    <figure class="mt-0 mb-0">
+                        <img srcset="img/hero.png, img/hero@2x.png 2x" alt="">
+                    </figure>
+                </div>
+                <div class="col col-12 mt-2">
+                    <p class="h6 btn btn-success">Psicólogo</p>
+                    <br>
+                    <p class="h6 btn btn-info">Aprendiz de Frontend</p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <!-- Experiencia -->
+    <section class="container-fluid" id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="img/down_arrow.svg" alt="" srcset="" height="25px">
+                    <h4 class="text-center mt-3 mb-3 ml-3 mr-3 d-inline-block">Experiencia</h4>
+                    <img src="img/down_arrow.svg" alt="" srcset="" height="25px">
+                </div>
+            </div>
+            <!-- Startpoint -->
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="startpoint-tab" data-toggle="tab" href="#startpoint" role="tab" aria-controls="startpoint" aria-selected="true">Startpoint México</a>
+                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-startpoint" role="tab" aria-controls="nav-profile" aria-selected="false">Actividades</a>
+                </div>
+            </nav>
+            <div class="tab-content mb-5" id="nav-tabContent">
+                <div class="tab-pane fade show active mt-2 ml-2 text-center" id="startpoint" role="tabpanel" aria-labelledby="startpoint-tab">
+                    <img srcset="img/startpoint-logo.png, img/startpoint-logo@2x.png 2x" alt="" class="mt-2 mb-2">
+                    <h4><small>Reclutador TI</small></h4>
+                    <p class="mt-3 mb-0">Inicio: 23 de Julio de 2018</p>
+                    <p class="mt-0">Actualmente</p>
+                </div>
+                <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-startpoint" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <p>Postulación de vacantes</p>
+                    <p>Búsqueda de candidatos</p>
+                    <p>Entrevistas telefónicas, videollamadas y presenci</p>
+                    <p>Screening de candid</p>
+                    <p>Seguimiento a proceso de contratación.</p>
+                </div>
+            </div>
+            <!-- Freelance -->
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="freelance-tab" data-toggle="tab" href="#freelance" role="tab" aria-controls="freelance" aria-selected="true">Freelance</a>
+                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-freelance" role="tab" aria-controls="nav-profile" aria-selected="false">Proyecto</a>
+                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-images" role="tab" aria-controls="nav-profile" aria-selected="false">Capturas</a>
+                </div>
+            </nav>
+            <div class="tab-content mb-5" id="nav-tabContent">
+                <div class="tab-pane fade show active mt-2 ml-2 text-center" id="freelance" role="tabpanel" aria-labelledby="freelance-tab">
+                    <img srcset="img/vbnet.png, img/vbnet@2x.png 2x" alt="" class="mt-2 mb-2">
+                    <h4><small>Desarrollador</small></h4>
+                    <p class="mt-3 mb-0">Inicio: Marzo</p>
+                    <p class="mt-0">Fin: Mayo 2018</p>
+                </div>
+                <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-freelance" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <p>Desarrollo de aplicación de escritorio con Visual Basic .Net en Visual Studio 2010.</p>
+                    <p>Aplicación para la gestión de pagos de aplicadores de Estudios Socioeconómicos.</p>
+                    <p>Reportes de pagos por persona, por panco y general.</p>
+                    <p>Almacenamiento en Base de Datos Microsoft Access 2016.</p>
+                </div>
+                <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-images" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="row">
+                        <div class="col col-12 col-sm-6 col-md-4 d-flex">
+                            <img class="mb-2 w-100 align-self-center" src="img/vb-project/LogIn.PNG" alt="">
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 d-flex align-self-center">
+                            <img class="mb-2 w-100 d-flex align-self-center" src="img/vb-project/Menu.PNG" alt="">
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 d-flex align-self-center">
+                            <img class="mb-2 w-100 d-flex align-self-center" src="img/vb-project/RegPago.PNG" alt="">
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 d-flex align-self-center">
+                            <img class="mb-2 w-100 d-flex align-self-center" src="img/vb-project/RegVisitador.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Conexión Laboral -->
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="conexion-tab" data-toggle="tab" href="#conexion" role="tab" aria-controls="startpoint" aria-selected="true">Conexión Laboral</a>
+                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-conexion" role="tab" aria-controls="nav-profile" aria-selected="false">Actividades</a>
+                </div>
+            </nav>
+            <div class="tab-content mb-5" id="nav-tabContent">
+                <div class="tab-pane fade show active mt-2 ml-2 text-center" id="conexion" role="tabpanel" aria-labelledby="conexion-tab">
+                    <img srcset="img/conexion-laboral-logo.png, img/conexion-laboral-logo@2x.png 2x" alt="" class="mt-2 mb-2">
+                    <h4><small>Reclutador / Soporte Técnico</small></h4>
+                    <p class="mt-3 mb-0">Inicio: 3 de Noviembre de 2016</p>
+                    <p class="mt-0">16 de Julio de 2018</p>
+                </div>
+                <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-conexion" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <p class="mb-0"><strong>Reclutamiento:</strong></p>
+                        <p>Postulación de vacantes, Búsqueda de candidatos, Entrevistas, Encargado de plataforma de psicometrías en línea, Trato directo con clientes, Reportes mensuales de resultados de departamente de Estudios Socioeconómicos, Seguimiento a proceso de contratación.</p>
+                        
+                        <p class="mb-0"><strong>Soporte Técnico:</strong></p>
+                        <p>Atención a problemas de usuarios internos, Formateo de equipos, Instalación de Sistema Operativo, Software y Periféricos, Implementación de respaldos automáticos, Creación de tutoriales para aplicación móvil, Creación de formatos en Excel (Fórmulas, Tablas dinámicas, Formatos condicionales, etc). </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estudios -->
+    <section class="container-fluid pb-4" id="education">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col text-center d-flex justify-content-center align-items-center mb-3">
+                    <img src="img/down_arrow_white.png" alt="" srcset="" height="25px" class=" align-self-center">
+                    <h4 class="text-center mb-0 mr-3 ml-3 d-inline-block align-self-center text-white">Estudios</h4>
+                    <img src="img/down_arrow_white.png" alt="" srcset="" height="25px" class="align-self-center svg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-light text-center" id="card">
+                        <div class="card-body pb-2 pt-2 pl-2 pr-2">
+                            <img src="img/udg.png" alt="" height="70px" class="mb-2">
+                            <h5 class="card-title mb-1">Universidad de Guadalajara</h5>
+                            <p class="card-title mb-0">Licenciatura en Psicología</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-light text-center" id="card">
+                        <div class="card-body pb-2 pt-2 pl-2 pr-2">
+                            <img src="img/dgeti.png" alt="" height="70px" class="mb-2">
+                            <h5 class="card-title mb-1">CETis #73</h5>
+                            <p class="card-title mb-0">Técnico en Informática</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Educación Online -->
+            <div class="row pt-3">
+                <div class="col text-center d-flex justify-content-center align-items-center mb-3">
+                    <h4 class="text-center mb-0 mr-3 ml-3 d-inline-block text-white" class=" align-self-center">Educación Online</h4>
+                </div>
+            </div>
+            <div class="accordion" id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-success mb-2" type="button" data-toggle="collapse" data-target="#collapsePlatzi" aria-expanded="true" aria-controls="collapseOne">
+                        Platzi
+                        </button>
+                        <button class="btn btn-outline-dark mb-2" type="button" data-toggle="collapse" data-target="#collapseFrontend" aria-expanded="false" aria-controls="collapseOne">
+                        Frontend
+                        </button>
+                        <button class="btn btn-outline-dark mb-2" type="button" data-toggle="collapse" data-target="#collapseBackend" aria-expanded="false" aria-controls="collapseOne">
+                        Backend
+                        </button>
+                        <button class="btn btn-outline-dark mb-2" type="button" data-toggle="collapse" data-target="#collapseGenerals" aria-expanded="false" aria-controls="collapseOne">
+                        Conocimientos Generales
+                        </button>
+                        <button class="btn btn-outline-dark mb-2" type="button" data-toggle="collapse" data-target="#collapseEnglish" aria-expanded="false" aria-controls="collapseOne">
+                        Inglés
+                        </button>
+                        <button class="btn btn-outline-dark mb-2" type="button" data-toggle="collapse" data-target="#collapseDesign" aria-expanded="false" aria-controls="collapseOne">
+                        Diseño UX / UI
+                        </button>
+                    </h2>
+                </div>
+                <!-- Careers -->
+                <div id="collapsePlatzi" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body pb-0">
+                        <div class="row justify-content-center">
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media align-items-center mb-3">
+                                    <img src="img/careers/png/golden-badge-arquitecto-front.png" class="mr-2" alt="..." height="50px">
+                                    <div class="media-body">
+                                        <h5 class="mt-0 mb-0 text-center" id="career_title">Carrera de Arquitectura Fronted</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Frontend -->
+                <div id="collapseFrontend" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body pb-0">
+                        <div class="row justify-content-center">
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/desarrollo-web.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Desarrollo Web</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/css-grid.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de CSS Grid Layout</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/responsive-design.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Responsive Design</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/animaciones-web.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Animanciones para la Web</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/sass.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de SASS</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/stylus.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Stylus</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/less.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de LESS</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/bootstrap.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Bootstrap</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/foundation.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Foundation</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/postcss.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de PostCSS</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/bots-facebook.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Bots con Facebook Messenger</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/wpo.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Optimización de Páginas Web</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/sistemas-diseno-desarrolladores.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Sistemas de Diseño para Desarrolladores</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Backend -->
+                <div id="collapseBackend" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body pb-0">
+                        <div class="row justify-content-center">
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/jquery-javascript.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de jQuery a JavaScript</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/fundamentos-javascript.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Fundamentos de JavaScript</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/introduccion-php.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Introducción a PHP</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Generales -->
+                <div id="collapseGenerals" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body pb-0">
+                        <div class="row justify-content-center">
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/git-github.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso Profesional de Git y GitHub</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/fundamentos-ingenieria.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Fundamentos de Ingeniería de Software</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/linea-comandos.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Introducción a Terminal y Línea de Comandos</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/fundamentos-bases-de-datos.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Fundamentos de Bases de Datos</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/programacion-basica.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Programación Básica</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/redes-internet.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Redes de Internet</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/marca-personal.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Marca Personal</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/finanzas.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Finanzas Personales</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- English -->
+                <div id="collapseEnglish" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body pb-0">
+                        <div class="row justify-content-center">
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/ingles-basico.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Inglés Básico</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/ingles-basico-gramatica.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Inglés Básico: Gramática</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/ingles-basico-conversacion.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Inglés Básico: Conversación</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Design -->
+                <div id="collapseDesign" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body pb-0">
+                        <div class="row justify-content-center">
+                            <div class="col col-12 col-md-6 col-lg-4 d-flex">
+                                <div class="media d-flex align-items-center mb-3">
+                                    <img src="img/courses/png/sistemas-diseno.png" class="mr-3" alt="..." height="40px">
+                                    <div class="media-body">
+                                        <h6 class="mt-0 mb-0">Curso de Sistemas de Diseño</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="container-fluid" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="img/down_arrow.svg" alt="" srcset="" height="25px">
+                    <h4 class="text-center mt-3 mb-3 ml-3 mr-3 d-inline-block">Proyectos</h4>
+                    <img src="img/down_arrow.svg" alt="" srcset="" height="25px">
+                </div>
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-center">
+                    <h4>Primer Portafolio</h4>
+                    <p>Este fue mi proyecto personal al concluir los primeros cursos de Desarrollo Web. Principalmente para practicar lo que aprendí de CSS Grid, Git, SASS, JavaScript y Responsive Design.</p>
+                    <h6 class="d-inline"><span class="badge badge-info font-weight-normal">HTML5</span></h6>
+                    <h6 class="d-inline"><span class="badge badge-info font-weight-normal">CSS3</span></h6>
+                    <h6 class="d-inline"><span class="badge badge-info font-weight-normal">JavaScript</span></h6>
+                    <h6 class="d-inline"><span class="badge badge-info font-weight-normal">SASS</span></h6>
+                    <br>
+                    <a href="https://luislirac.github.io/portfolio/" target="_blank"><button type="button" class="btn btn-outline-dark btn-sm mt-2">GitHub Page</button></a>
+                    <a href="https://github.com/LuisLiraC/portfolio" target="_blank"><button type="button" class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
+                </div>
+                <div class="col col-12 col-md-6">
+                    <figure class="pb-2 pt-2 pr-2 pl-2">
+                        <img src="img/projects/luislirac.github.io_portfolio_.png" width="100%" alt="">
+                    </figure>
+                </div>
+            </div>
+            <hr>
+            <div class="row d-flex align-items-center order-last order-md-first">
+                <div class="col col-12 col-md-6">
+                    <figure class="pb-2 pt-2 pr-2 pl-2">
+                        <img src="img/projects/luislirac.github.io_portfolio_.png" width="100%" alt="">
+                    </figure>
+                </div>
+                <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-right text-center order-first order-md-last">
+                    <h4>Proyecto 2</h4>
+                    <p>Descripción de proyecto 2</p>
+                    <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Tecnología Usada</span></h6>
+                    <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Tecnología Usada</span></h6>
+                    <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Tecnología Usada</span></h6>
+                    <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Tecnología Usada</span></h6>
+                    <br>
+                    <a href="https://luislirac.github.io/portfolio/" target="_blank"><button type="button" class="btn btn-outline-dark btn-sm mt-2">GitHub Page</button></a>
+                    <a href="https://github.com/LuisLiraC/portfolio" target="_blank"><button type="button" class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid mt-3" id="contact">
+        <div class="container pt-3 pb-3">
+            <div class="row">
+                <div class="col text-center">
+                    <a href="https://github.com/LuisLiraC" target="_blank"><span class="btn btn-dark">GitHub</span></a>
+                    <a href="https://platzi.com/@Luis_LiraC" target="_blank"><span class="btn btn-success ">Perfil de Platzi</span></a>
+                    <a href="https:/linkedin.com/in/luislirac/" target="_blank"><span class="btn btn-primary ">LinkedIn</span></a>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col mt-3 d-flex justify-content-center align-items-center text-center">
+                    <img src="img/phone.svg" alt="" height="30px" class="mr-2">
+                    <span class="text-white">393 101 4530</span>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col mt-3 d-flex justify-content-center align-items-center text-center">
+                    <img src="img/email.svg" alt="" height="30px" class="mr-2">
+                    <span class="text-white">psicluislira@hotmail.com</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+:root{
+    --gradient-left: #00344d;
+    --gradient-right: #002e63;
+    --header: #00273a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', system-ui;
+}
+#about {
+    position: relative;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    left: 0;
+}
+
+span {
+    line-height: normal;
+}
+
+header, footer {
+    background-color: var(--header) !important;
+}
+
+#hero, #hero-cont {
+    background: transparent !important;
+}
+
+main {
+    background-color: var(--gradient-left);
+}
+
+#education {
+    background-image: linear-gradient(var(--gradient-left), var(--gradient-right));
+}
+
+#card {
+    background-color: rgba(255,255,255, 1) !important;
+}
+
+#career_title {
+    font-size: 19px;
+}
+
