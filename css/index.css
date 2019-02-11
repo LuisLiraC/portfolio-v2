@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Roboto', system-ui;
+    background-color: var(--header)
 }
 #about {
     position: relative;
@@ -35,6 +36,14 @@ header, footer {
     background: transparent !important;
 }
 
+#hero-img {
+    border-radius: 5px;
+}
+
+.hi {
+    color: white;
+}
+
 main {
     background-color: var(--gradient-left);
 }
@@ -51,3 +60,35 @@ main {
     font-size: 19px;
 }
 
+.e-online {
+    border-radius: 5px !important;
+}
+
+#experience, #projects {
+    background-color: white;
+}
+
+.diploma:hover {
+    cursor: pointer;
+}
+
+.modal-content {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content h4 {
+    margin-top: 10px;
+}
+
+.diploma-image {
+    max-width: 75%;
+    margin: 10px auto;
+}
+
+.view {
+    max-width: 50%;
+    margin: 10px auto;
+}
