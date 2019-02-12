@@ -92,3 +92,7 @@ main {
     max-width: 50%;
     margin: 10px auto;
 }
+
+.mail {
+    text-decoration: none !important;
+}
