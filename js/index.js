@@ -2,68 +2,12 @@ $('.navbar-nav a').on('click', function () {
     $('.navbar-collapse').removeClass('show');
 });
 
+// Variables
+
 const diplomas = document.getElementsByClassName("diploma");
 const modal_content = document.getElementById("modal-content")
 
-for (let i = 0; i < diplomas.length; i++){
-    diplomas[i].addEventListener('click', () => {
-        const data_diploma = event.target.getAttribute("data-diploma");
-        const dataStr = data_diploma.toString()
-        modal(dataStr);
-    });
-}
-
-function modal(data) {
-    if (data.indexOf('career') >= 0){
-        const index = data.split('-')[1];
-        const clicked = careers[index - 1];
-        var content = HTMLTemplate(clicked);
-
-    } else if (data.indexOf('frontend') >= 0) {
-        const index = data.split('-')[1];
-        const clicked = frontend[index - 1];
-        var content = HTMLTemplate(clicked);
-
-    } else if (data.indexOf('backend') >= 0) {
-        const index = data.split('-')[1];
-        const clicked = backend[index - 1];
-        var content = HTMLTemplate(clicked);
-
-    } else if (data.indexOf('generals') >= 0) {
-        const index = data.split('-')[1];
-        const clicked = generals[index - 1];
-        var content = HTMLTemplate(clicked);
-
-    } else if (data.indexOf('english') >= 0) {
-        const index = data.split('-')[1];
-        const clicked = english[index - 1];
-        var content = HTMLTemplate(clicked);
-
-    } else if (data.indexOf('design') >= 0) {
-        const index = data.split('-')[1];
-        const clicked = design[index - 1];
-        var content = HTMLTemplate(clicked);
-
-    } else if (data.indexOf('cms') >= 0) {
-        const index = data.split('-')[1];
-        const clicked = cms[index - 1];
-        var content = HTMLTemplate(clicked);
-    }
-
-    $('.MyModal').modal('show')
-    modal_content.innerHTML = content;
-}
-
-
-function HTMLTemplate(data){
-    return (
-        `
-        <h4>${data.title}</h4>
-        <img src="${data.src}" class="diploma-image">
-        <a class="btn btn-success view" href="${data.link}" target="_blank">Ver en Platzi</a>
-        `
-    )
-}
+// JSON
 
 const careers = [ 
     {   
@@ -291,3 +235,70 @@ const cms = [
         link: "https://platzi.com/@Luis_LiraC/curso/1433-seo-wordpress/diploma/detalle/"
     }
 ]
+
+// Functions
+
+for (let i = 0; i < diplomas.length; i++){
+    diplomas[i].addEventListener('click', (event) => {
+        const data_diploma = event.target.getAttribute("data-diploma");
+        const dataStr = data_diploma.toString()
+        ShowModal(dataStr);
+    });
+}
+
+
+function ShowModal(data) {
+    let index;
+    let clicked;
+    let content;
+
+    if (data.indexOf('career') >= 0){
+        index = data.split('-')[1];
+        clicked = careers[index - 1];
+        content = HTMLTemplate(clicked);
+
+    } else if (data.indexOf('frontend') >= 0) {
+        index = data.split('-')[1];
+        clicked = frontend[index - 1];
+        content = HTMLTemplate(clicked);
+
+    } else if (data.indexOf('backend') >= 0) {
+        index = data.split('-')[1];
+        clicked = backend[index - 1];
+        content = HTMLTemplate(clicked);
+
+    } else if (data.indexOf('generals') >= 0) {
+        index = data.split('-')[1];
+        clicked = generals[index - 1];
+        content = HTMLTemplate(clicked);
+
+    } else if (data.indexOf('english') >= 0) {
+        index = data.split('-')[1];
+        clicked = english[index - 1];
+        content = HTMLTemplate(clicked);
+
+    } else if (data.indexOf('design') >= 0) {
+        index = data.split('-')[1];
+        clicked = design[index - 1];
+        content = HTMLTemplate(clicked);
+
+    } else if (data.indexOf('cms') >= 0) {
+        index = data.split('-')[1];
+        clicked = cms[index - 1];
+        content = HTMLTemplate(clicked);
+    }
+
+    $('.MyModal').modal('show')
+    modal_content.innerHTML = content;
+}
+
+
+function HTMLTemplate(data){
+    return (
+        `
+        <h4>${data.title}</h4>
+        <img src="${data.src}" class="diploma-image">
+        <a class="btn btn-success view" href="${data.link}" target="_blank">Ver en Platzi</a>
+        `
+    )
+}
