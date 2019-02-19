@@ -109,6 +109,18 @@ const frontend = [
         title: "Curso Profesional de Desarrollo Web",
         src: "img/courses/png/diplomas/frontend/diploma-web-avanzado.png",
         link: "https://platzi.com/@Luis_LiraC/curso/1492-web-avanzado/diploma/detalle/"
+    },
+    {
+        id: 15,
+        title: "Curso de Webpack",
+        src: "img/courses/png/diplomas/frontend/diploma-webpack.png",
+        link: "https://platzi.com/@Luis_LiraC/curso/1196-webpack/diploma/detalle/"
+    },
+    {
+        id: 16,
+        title: "Curso de React.js",
+        src: "img/courses/png/diplomas/frontend/diploma-react.png",
+        link: "https://platzi.com/@Luis_LiraC/curso/1199-react/diploma/detalle/"
     }
     
 ]
@@ -288,7 +300,7 @@ function ShowModal(data) {
         content = HTMLTemplate(clicked);
     }
 
-    $('.MyModal').modal('show')
+    $('.MyModal').modal('show');
     modal_content.innerHTML = content;
 }
 
