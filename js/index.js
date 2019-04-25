@@ -118,7 +118,7 @@ const frontend = [
     },
     {
         id: 16,
-        title: "Curso de React.js",
+        title: "Curso de React.js 2017",
         src: "img/courses/png/diplomas/frontend/diploma-react.png",
         link: "https://platzi.com/@Luis_LiraC/curso/1199-react/diploma/detalle/"
     }
@@ -167,7 +167,7 @@ const generals = [
     },
     {
         id: 4,
-        title: "Fundamentos de Bases de Datos",
+        title: "Fundamentos de Bases de Datos 2017",
         src: "img/courses/png/diplomas/generals/diploma-bd.png",
         link: "https://platzi.com/@Luis_LiraC/curso/1183-bd/diploma/detalle/"
     },
