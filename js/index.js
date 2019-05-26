@@ -106,9 +106,9 @@ const frontend = [
     },
     {
         id: 14,
-        title: "Curso Profesional de Desarrollo Web",
-        src: "img/courses/png/diplomas/frontend/diploma-web-avanzado.png",
-        link: "https://platzi.com/@Luis_LiraC/curso/1492-web-avanzado/diploma/detalle/"
+        title: "Curso de HTML y CSS",
+        src: "img/courses/png/diplomas/frontend/diploma-html-css.png",
+        link: "https://platzi.com/@Luis_LiraC/curso/1492-html-css/diploma/detalle/"
     },
     {
         id: 15,
@@ -121,6 +121,12 @@ const frontend = [
         title: "Curso de React.js 2017",
         src: "img/courses/png/diplomas/frontend/diploma-react.png",
         link: "https://platzi.com/@Luis_LiraC/curso/1199-react/diploma/detalle/"
+    },
+    {
+        id: 17,
+        title: "Curso de React.js 2019",
+        src: "img/courses/png/diplomas/frontend/diploma-react-2019.png",
+        link: "https://platzi.com/@Luis_LiraC/curso/1548-react/diploma/detalle/"
     }
     
 ]
@@ -194,6 +200,18 @@ const generals = [
         title: "Curso de Finanzas Personales",
         src: "img/courses/png/diplomas/generals/diploma-finanzas.png",
         link: "https://platzi.com/@Luis_LiraC/curso/1190-finanzas/diploma/detalle/"
+    },
+    {
+        id: 8,
+        title: "Curso de Creación de Portafolio y CV",
+        src: "img/courses/png/diplomas/generals/diploma-portafolios.png",
+        link: "https://platzi.com/@Luis_LiraC/curso/1584-portafolios/diploma/detalle/"
+    },
+    {
+        id: 8,
+        title: "Curso de Ortografía Básica",
+        src: "img/courses/png/diplomas/generals/diploma-ortografia-basica.png",
+        link: "https://platzi.com/@Luis_LiraC/curso/1396-ortografia-basica/diploma/detalle/"
     },
 ]
 
