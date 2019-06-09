@@ -41,7 +41,12 @@ header, footer {
 }
 
 .hi {
-    color: white;
+    color: #28A745;
+    font-weight: bold;
+}
+
+.before-hi {
+    color: rgb(235, 235, 235);
 }
 
 main {

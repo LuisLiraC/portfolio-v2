@@ -51,3 +51,36 @@
         opacity: 1;
     }
 }
+
+.rainbow {
+    animation-name: rainbow;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+@keyframes rainbow {
+    0% {
+        color: white
+    }
+
+    20% {
+        color: #00e5ff
+    }
+
+    40% {
+        color: #00ff50;
+    }
+
+    60% {
+        color: #ffed00;
+    }
+
+    80% {
+        color: #b44efd
+    }
+
+    100% {
+        color: #ea2d2d
+    }
+}
