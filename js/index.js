@@ -17,7 +17,7 @@ const api = [
         id: 1,
         title: "Careers",
         tag: "Carreras en Platzi",
-        "items": [
+        items: [
             {
                 id: 1,
                 title: "Carrera de Arquitectura Frontend",
@@ -38,7 +38,7 @@ const api = [
         id: 2,
         title: "Frontend",
         tag: "Frontend",
-        "items": [
+        items: [
             {   
                 id: 1,
                 title: "Curso de Desarrollo Web Online",
@@ -171,6 +171,20 @@ const api = [
                 badge: "img/badges/react-router.png",
                 src: "img/diplomas/diploma-react-router.png",
                 link: "https://platzi.com/@Luis_LiraC/curso/1342-react-router/diploma/detalle/"
+            },
+            {
+                id: 20,
+                title: "Curso de Next.js",
+                badge: "img/badges/nextjs.png",
+                src: "img/diplomas/diploma-next-js.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1311-next-js/diploma/detalle/"
+            },
+            {
+                id: 21,
+                title: "Curso de PWA con React.js",
+                badge: "img/badges/PWA.png",
+                src: "img/diplomas/diploma-pwa-react-js.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1313-pwa-react-js/diploma/detalle/"
             }
         ]
     },
@@ -178,7 +192,7 @@ const api = [
         id: 3,
         title: "Backend",
         tag: "Backend",
-        "items": [
+        items: [
             {   
                 id: 1,
                 title: "Curso de jQuery a JavaScript",
@@ -199,6 +213,20 @@ const api = [
                 badge: "img/badges/introduccion-php.png",
                 src: "img/diplomas/diploma-php.png",
                 link: "https://platzi.com/@Luis_LiraC/curso/1338-php/diploma/detalle/"
+            },
+            {
+                id: 4,
+                title: "Fundamentos de C# con NET Core",
+                badge: "img/badges/fundamentos-csharp.png",
+                src: "img/diplomas/diploma-fundamentos-csharp.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1375-fundamentos-csharp/diploma/detalle/"
+            },
+            {
+                id: 5,
+                title: "Curso de C# con .Net Core",
+                badge: "img/badges/csharp-netcore.png",
+                src: "img/diplomas/diploma-c-sharp.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1359-c-sharp/diploma/detalle/"
             }
         ]
     },
@@ -206,7 +234,7 @@ const api = [
         id: 4,
         title: "Generals",
         tag: "Conocimientos Generales",
-        "items": [
+        items: [
             {   
                 id: 1,
                 title: "Curso Profesional de Git y GitHub 2017",
@@ -249,33 +277,19 @@ const api = [
                 src: "img/diplomas/diploma-redes.png",
                 link: "https://platzi.com/@Luis_LiraC/curso/1277-redes/diploma/detalle/"
             },
-            {
-                id: 7,
-                title: "Curso de Marca Personal",
-                badge: "img/badges/marca-personal.png",
-                src: "img/diplomas/diploma-marca-personal.png",
-                link: "https://platzi.com/@Luis_LiraC/curso/1220-marca-personal/diploma/detalle/"
-            },
-            {
-                id: 8,
-                title: "Curso de Creación de Portafolio y CV",
-                badge: "img/badges/portafolio-cv.png",
-                src: "img/diplomas/diploma-portafolios.png",
-                link: "https://platzi.com/@Luis_LiraC/curso/1584-portafolios/diploma/detalle/"
-            },
-            {
-                id: 9,
-                title: "Curso de Ortografía Básica",
-                badge: "img/badges/ortografia-basica.png",
-                src: "img/diplomas/diploma-ortografia-basica.png",
-                link: "https://platzi.com/@Luis_LiraC/curso/1396-ortografia-basica/diploma/detalle/"
-            },
             {   
-                id: 10,
+                id: 7,
                 title: "Curso Profesional de Git y GitHub 2019",
                 badge: "img/badges/git-github.png",
                 src: "img/diplomas/diploma-git-github-2019.png",
                 link: "https://platzi.com/@Luis_LiraC/curso/1557-git-github/diploma/detalle/"
+            },
+            {   
+                id: 8,
+                title: "Curso de Programación Orientada a Objetos: POO",
+                badge: "img/badges/poo.png",
+                src: "img/diplomas/diploma-oop.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1474-oop/diploma/detalle/"
             }
         ]
     },
@@ -283,7 +297,7 @@ const api = [
         id: 5,
         title: "English",
         tag: "Inglés",
-        "items": [
+        items: [
             {   
                 id: 1,
                 title: "Curso de Inglés Básico",
@@ -318,7 +332,7 @@ const api = [
         id: 6,
         title: "Design",
         tag: "Diseño UX / UI",
-        "items": [
+        items: [
             {   
                 id: 1,
                 title: "Curso de Sistemas de Diseño",
@@ -332,7 +346,7 @@ const api = [
         id: 7,
         title: "CMS",
         tag: "WordPress",
-        "items": [
+        items: [
             {   
                 id: 1,
                 title: "Curso de Temas y Plugins en WordPress",
@@ -349,6 +363,41 @@ const api = [
             }
         ]
     },
+    {
+        id: 8,
+        title: "Others",
+        tag: "Otros",
+        items: [
+            {
+                id: 1,
+                title: "Curso de Marca Personal",
+                badge: "img/badges/marca-personal.png",
+                src: "img/diplomas/diploma-marca-personal.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1220-marca-personal/diploma/detalle/"
+            },
+            {
+                id: 2,
+                title: "Curso de Creación de Portafolio y CV",
+                badge: "img/badges/portafolio-cv.png",
+                src: "img/diplomas/diploma-portafolios.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1584-portafolios/diploma/detalle/"
+            },
+            {
+                id: 3,
+                title: "Curso de Ortografía Básica",
+                badge: "img/badges/ortografia-basica.png",
+                src: "img/diplomas/diploma-ortografia-basica.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1396-ortografia-basica/diploma/detalle/"
+            },
+            {
+                id: 4,
+                title: "Curso de Finanzas Personales",
+                badge: "img/badges/finanzas.png",
+                src: "img/diplomas/diploma-finanzas.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1190-finanzas/diploma/detalle/"
+            },
+        ]
+    }
 ]
 
 // Funciones para Renderizado de cursos
@@ -427,7 +476,7 @@ function HTMLTemplate(result){
     )
 }
 
-// Agregando evento de click a todos los cursos
+// Agregando evento de click a todos los cursos luego de ser renderizados
 
 for (let i = 0; i < diplomas.length; i++){
     diplomas[i].addEventListener('click', (event) => {
