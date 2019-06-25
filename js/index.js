@@ -31,6 +31,13 @@ const api = [
                 badge: "img/badges/Wordpress.png",
                 src: "img/diplomas/diploma-desarrollo-wordpress.png",
                 link: "https://platzi.com/@Luis_LiraC/carrera/52-desarrollo-wordpress/diploma/detalle/"
+            },
+            {
+                id: 3,
+                title: "Carrera de Desarrollo de Aplicaciones con ASP .NET",
+                badge: "img/badges/golden-asp.png",
+                src: "img/diplomas/diploma-asp-net.png",
+                link: "https://platzi.com/@Luis_LiraC/carrera/58-asp-net/diploma/detalle/"
             }
         ]
     },
@@ -227,6 +234,13 @@ const api = [
                 badge: "img/badges/csharp-netcore.png",
                 src: "img/diplomas/diploma-c-sharp.png",
                 link: "https://platzi.com/@Luis_LiraC/curso/1359-c-sharp/diploma/detalle/"
+            },
+            {
+                id: 6,
+                title: "Curso de ASP.NET Core",
+                badge: "img/badges/aspnet.png",
+                src: "img/diplomas/diploma-aspnet-core.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1395-aspnet-core/diploma/detalle/"
             }
         ]
     },
@@ -290,6 +304,13 @@ const api = [
                 badge: "img/badges/poo.png",
                 src: "img/diplomas/diploma-oop.png",
                 link: "https://platzi.com/@Luis_LiraC/curso/1474-oop/diploma/detalle/"
+            },
+            {   
+                id: 9,
+                title: "Curso de Fundamentos de Bases de Datos 2019",
+                badge: "img/badges/fundamentos-bases-de-datos.png",
+                src: "img/diplomas/diploma-bd-2019.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1566-bd/diploma/detalle/"
             }
         ]
     },
