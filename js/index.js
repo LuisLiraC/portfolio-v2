@@ -192,6 +192,13 @@ const api = [
                 badge: "img/badges/PWA.png",
                 src: "img/diplomas/diploma-pwa-react-js.png",
                 link: "https://platzi.com/@Luis_LiraC/curso/1313-pwa-react-js/diploma/detalle/"
+            },
+            {
+                id: 22,
+                title: "Curso de Redux por Bedu",
+                badge: "img/badges/redux.png",
+                src: "img/diplomas/diploma-redux-2019.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1613-redux/diploma/detalle/"
             }
         ]
     },
@@ -241,6 +248,13 @@ const api = [
                 badge: "img/badges/aspnet.png",
                 src: "img/diplomas/diploma-aspnet-core.png",
                 link: "https://platzi.com/@Luis_LiraC/curso/1395-aspnet-core/diploma/detalle/"
+            },
+            {
+                id: 7,
+                title: "Curso Básico de Node.js",
+                badge: "img/badges/nodejs-basico.png",
+                src: "img/diplomas/diploma-basico-nodejs.png",
+                link: "https://platzi.com/@Luis_LiraC/curso/1380-basico-nodejs/diploma/detalle/"
             }
         ]
     },
