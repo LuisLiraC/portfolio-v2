@@ -1,100 +1,100 @@
 :root{
-    --gradient-left: #00344d;
-    --gradient-right: #002e63;
-    --header: #00273a;
+  --gradient-left: #00344d;
+  --gradient-right: #002e63;
+  --header: #00273a;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Roboto', system-ui;
-    background-color: var(--header)
+  font-family: 'Roboto', system-ui;
+  background-color: var(--header)
 }
 #about {
-    position: relative;
+  position: relative;
 }
 
 #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  left: 0;
 }
 
 span {
-    line-height: normal;
+  line-height: normal;
 }
 
 header, footer {
-    background-color: var(--header) !important;
+  background-color: var(--header) !important;
 }
 
 #hero, #hero-cont {
-    background: transparent !important;
-    height: 100vh;
+  background: transparent !important;
+  height: 100vh;
 }
 
 #hero-img {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .hi {
-    color: #28A745;
-    font-weight: bold;
+  color: #28A745;
+  font-weight: bold;
 }
 
 .before-hi {
-    color: rgb(235, 235, 235);
+  color: rgb(235, 235, 235);
 }
 
 main {
-    background-color: var(--gradient-left);
+  background-color: var(--gradient-left);
 }
 
 #education {
-    background-image: linear-gradient(var(--gradient-left), var(--gradient-right));
+  background-image: linear-gradient(var(--gradient-left), var(--gradient-right));
 }
 
 #card {
-    background-color: rgba(255,255,255, 1) !important;
+  background-color: rgba(255,255,255, 1) !important;
 }
 
 .e-online {
-    border-radius: 5px !important;
+  border-radius: 5px !important;
 }
 
 #experience, #projects {
-    background-color: white;
+  background-color: white;
 }
 
 .diploma:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .modal-content {
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .modal-content h4 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .diploma-image {
-    max-width: 75%;
-    margin: 10px auto;
+  max-width: 75%;
+  margin: 10px auto;
 }
 
 .view {
-    max-width: 50%;
-    margin: 10px auto;
+  max-width: 50%;
+  margin: 10px auto;
 }
 
 .mail {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }

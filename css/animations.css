@@ -1,86 +1,103 @@
 .fadeIn {
-    animation-duration: 2s;
-    animation-fill-mode: both;
-    animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        transform: translate3d(0,0,0);
-    }
+  100% {
+    transform: translate3d(0,0,0);
+  }
 }
 
 
 .fadeInDown {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
 }
 
 @keyframes fadeInDown {
-    0% {
-        opacity: 0;
-        transform: translate3d(0,-100%,0);
-    }
+  0% {
+    opacity: 0;
+    transform: translate3d(0,-100%,0);
+  }
 
-    100% {
-        transform: translate3d(0,0,0);
-        opacity: 1;
-    }
+  100% {
+    transform: translate3d(0,0,0);
+    opacity: 1;
+  }
 }
 
 
 .scaleUp {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-name: scaleUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: scaleUp;
 }
 
 @keyframes scaleUp {
-    0% {
-        opacity: 0;
-        transform: scale3d(0,0,0);
-    }
+  0% {
+    opacity: 0;
+    transform: scale3d(0,0,0);
+  }
 
-    100% {
-        transform: scale3d(0,100%,0);
-        opacity: 1;
-    }
+  100% {
+    transform: scale3d(0,100%,0);
+    opacity: 1;
+  }
 }
 
 .rainbow {
-    animation-name: rainbow;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    animation-direction: alternate;
+  animation-name: rainbow;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
 }
 
 @keyframes rainbow {
-    0% {
-        color: white
-    }
+  0% {
+    color: white
+  }
 
-    20% {
-        color: #00e5ff
-    }
+  20% {
+    color: #00e5ff
+  }
 
-    40% {
-        color: #00ff50;
-    }
+  40% {
+    color: #00ff50;
+  }
 
-    60% {
-        color: #ffed00;
-    }
+  60% {
+    color: #ffed00;
+  }
 
-    80% {
-        color: #b44efd
-    }
+  80% {
+    color: #b44efd
+  }
 
-    100% {
-        color: #ea2d2d
-    }
+  100% {
+    color: #ea2d2d
+  }
+}
+
+.down_animation {
+  animation-name: downArrow;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+@keyframes downArrow {
+  0% {
+    transform: translate(0, -8px)
+  }
+
+  100% {
+    transform: translate(0, 8px)
+  }
 }
