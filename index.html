@@ -7,20 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="desription" content="Luis Lira - Portfolio">
   <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Portfolio">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/animations.css">
+  <!-- <link rel="stylesheet" href="css/index.css"> -->
+  <link rel="stylesheet" href="css/index.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/fa147b899a.js"></script>
   <title>Luis Lira - Portfolio</title>
 </head>
 
 <body>
 
   <!-- Header -->
-  <header class="container-fluid pr-0 pl-0 sticky-top fadeInDown" id="header">
+  <header class="container-fluid pr-0 pl-0 fixed-top fadeInDown" id="header">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark ">
         <a class="navbar-brand" href="#">Luis Lira</a>
@@ -52,7 +51,7 @@
         </div>
         <div class="col-12 mt-4">
           <h1 class="hi scaleUp rainbow">
-            Desarrollador Web en proceso
+            Desarrollador Web
           </h1>
           <h5 class="before-hi scaleUp pt-2">
             Apasionado por el aprendizaje. Me gusta compartir mis conocimientos.
@@ -72,7 +71,7 @@
   <section class="container-fluid pt-4 pb-4" id="projects">
     <div class="container">
       <div class="row">
-        <div class="col text-center">
+        <div class="col text-center hidden">
           <img src="img/down_arrow.svg" alt="down_arrow" srcset="" height="25px">
           <h4 class="text-center mt-3 mb-3 ml-3 mr-3 d-inline-block">Proyectos</h4>
           <img src="img/down_arrow.svg" alt="down_arrow" srcset="" height="25px">
@@ -80,221 +79,15 @@
       </div>
       <hr>
       <!--  -->
-      <div class="row d-flex align-items-center order-last">
-        <div class="col col-12 col-md-6 project-left">
-          <figure class="pb-2 pt-2 pr-2 pl-2">
-            <img src="img/projects/API.png" width="100%" alt="captura_api">
-          </figure>
-        </div>
-        <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-right text-center order-first project-right">
-          <h4>API Rest</h4>
-          <p>Desarrollo de una API Rest pública para el uso de la comunidad de desarrolladores web. Este proyecto principalmente lo realicé para practicar la creación de una API con Express.js. Más delante pretendo que también pueda simular las peticiones POST, PUT y DELETE.</p>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Node.js</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Express.js</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">JavaScript</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">MongoDB</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">HTML5</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">CSS3</span></h6>
-          <br>
-          <a href="https://api-lol.herokuapp.com/" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Ver en Heroku</button></a>
-          <a href="https://github.com/LuisLiraC/api-lol" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
-        </div>
-      </div>
-      <hr>
-      <!--  -->
-      <div class="row d-flex align-items-center order-last order-md-first">
-        <div class="col col-12 col-md-6">
-          <figure class="pb-2 pt-2 pr-2 pl-2">
-            <img src="img/projects/tictactoe.png" width="100%" alt="captura_tictactoe">
-          </figure>
-        </div>
-        <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-right text-center order-first order-md-last">
-          <h4>Tic-Tac-Toe</h4>
-          <p>Este pequeño juego fue el proyecto del curso básico de node.js en Platzi. Después de conocer los aspectos
-            básicos del entorno de ejecución se procedió a crear un juego de Tic tac toe con Socket.io en la parte del
-            backend para que fuera en tiempo real.</p>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Node.js</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Socket.io</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">React.js</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Redux</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Bootstrap</span></h6>
-          <br>
-          <a href="https://github.com/LuisLiraC/Tit-Tac-Toe" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
-        </div>
-      </div>
-      <hr>
-      <!--  -->
-      <div class="row d-flex align-items-center order-last">
-        <div class="col col-12 col-md-6 project-left">
-          <figure class="pb-2 pt-2 pr-2 pl-2">
-            <img src="img/projects/blog.png" width="100%" alt="captura_blog">
-          </figure>
-        </div>
-        <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-right text-center order-first project-right">
-          <h4>Blog</h4>
-          <p>SPA donde se realiza el comnsumo de la API <a href="https://jsonplaceholder.typicode.com/"
-              target="_blank">JSONPlaceHolder</a>. Además, en el código se incluyen métodos HTTP como POST, DELETE, PUT
-            y GET para simular las acciones hacia una base de datos a manera de CRUD.</p>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">React.js</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Redux</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Bootstrap</span></h6>
-          <br>
-          <a href="https://blog.luislirac.now.sh/" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Ver en: Now</button></a>
-          <a href="https://github.com/LuisLiraC/blog-redux" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
-        </div>
-      </div>
-      <hr>
-      <!--  -->
-      <div class="row d-flex align-items-center order-last order-md-first">
-        <div class="col col-12 col-md-6">
-          <figure class="pb-2 pt-2 pr-2 pl-2">
-            <img src="img/projects/CoreSchool.png" width="100%" alt="captura_CoreSchool">
-          </figure>
-        </div>
-        <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-right text-center order-first order-md-last">
-          <h4>CoreSchool</h4>
-          <p>(WIP) Aplicación realizada con el framework de ASP.Net Core MVC. Está enfocada a realizar funcionalidades
-            sencillas de CRUD usando una base de datos en memoria creada con Entity Framework Core, de la cual se extrae
-            la información con LinQ</p>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">ASP.Net Core</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">C#</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">MVC</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">LinQ</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">EF Core</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Razor</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Bootstrap</span></h6>
-
-          <br>
-          <!-- <a href="https://luislirac.github.io/CoreSchool/" target="_blank"><button type="button" class="btn btn-outline-dark btn-sm mt-2">GitHub Page</button></a> -->
-          <a href="https://github.com/LuisLiraC/School_ASPNET" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
-        </div>
-      </div>
-      <hr>
-      <!--  -->
-      <div class="row d-flex align-items-center">
-        <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-center">
-          <h4>PWA Recetas</h4>
-          <p>Aplicación simple sobre recetas. Consume una API de donde toma la información de cada apartado, este
-            proyecto se trató principalmente pasar una Web app a una PWA, cumpliendo con los requerimientos de Google
-            para una, con usabilidad offline con los Services Workers para que los datos se almacenen en caché.</p>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">React.js</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">React Router</span></h6>
-          <br>
-          <a href="https://recetas-pwa.luislirac.now.sh/" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Ver en: Now</button></a>
-          <a href="https://github.com/LuisLiraC/pwa-recetas" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
-        </div>
-        <div class="col col-12 col-md-6">
-          <figure class="pb-2 pt-2 pr-2 pl-2">
-            <img src="img/projects/PWA.png" width="100%" alt="captura_pokedex">
-          </figure>
-        </div>
-      </div>
-      <hr>
-      <!--  -->
-      <div class="row d-flex align-items-center order-last order-md-first">
-        <div class="col col-12 col-md-6">
-          <figure class="pb-2 pt-2 pr-2 pl-2">
-            <img src="img/projects/Podcasts.png" width="100%" alt="captura_gamesvideos">
-          </figure>
-        </div>
-        <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-right text-center order-first order-md-last">
-          <h4>Podcasts</h4>
-          <p>Aplicación que consume la API de Audioboom. Principalmente el motivo de este proyecto fue el uso de SSR
-            para hacer una Web app con mejor performance.</p>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Next.js</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">React.js</span></h6>
-          <br>
-          <a href="https://podcast.luislirac.now.sh/" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Ver en: Now</button></a>
-          <a href="https://github.com/LuisLiraC/podcasts" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
-        </div>
-      </div>
-      <hr>
-      <!--  -->
-      <div class="row d-flex align-items-center">
-        <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-center">
-          <h4>Pokédex</h4>
-          <p>SPA enfocada al cosumo de la API pública de la página <a href="https://pokeapi.co/"
-              target="_blank">PokéAPI</a>. Con esto hice un pequeño espacio donde se puede consultar parte de la
-            información de los Pokémon.</p>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">React.js</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">React Router</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Npm</span></h6>
-          <br>
-          <a href="https://luislirac.github.io/pokedex/" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">GitHub Page</button></a>
-          <a href="https://github.com/LuisLiraC/pokedex" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
-        </div>
-        <div class="col col-12 col-md-6">
-          <figure class="pb-2 pt-2 pr-2 pl-2">
-            <img src="img/projects/Pokedex.PNG" width="100%" alt="captura_pokedex">
-          </figure>
-        </div>
-      </div>
-      <hr>
-      <!--  -->
-      <div class="row d-flex align-items-center order-last order-md-first">
-        <div class="col col-12 col-md-6">
-          <figure class="pb-2 pt-2 pr-2 pl-2">
-            <img src="img/projects/GamesVideos.png" width="100%" alt="captura_gamesvideos">
-          </figure>
-        </div>
-        <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-right text-center order-first order-md-last">
-          <h4>GamesVideos</h4>
-          <p>Esto es una SPA donde comparto algunas de mis cosas favoritas como Videojuegos, Soundtracks y Youtubers.
-            Ese es el resultado de la combinación de varios cursos. En local también trabajo con SSR.</p>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">React.js</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Webpack</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Redux</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">React Router</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">Npm</span></h6>
-
-          <br>
-          <a href="https://luislirac.github.io/GamesVideos/" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">GitHub Page</button></a>
-          <a href="https://github.com/LuisLiraC/GamesVideos" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
-        </div>
-      </div>
-      <hr>
-      <!--  -->
-      <div class="row d-flex align-items-center">
-        <div class="col col-12 col-md-6 pb-2 pt-2 pr-2 pl-2 text-center">
-          <h4>Mi Primer Portafolio</h4>
-          <p>Este fue mi proyecto personal al concluir los primeros cursos de Desarrollo Web. Principalmente para
-            practicar lo que aprendí de CSS Grid, Git, SASS, JavaScript y Responsive Design.</p>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">HTML5</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">CSS3</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">JavaScript</span></h6>
-          <h6 class="d-inline"><span class="badge badge-info font-weight-normal">SASS</span></h6>
-          <br>
-          <a href="https://luislirac.github.io/portfolio/" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">GitHub Page</button></a>
-          <a href="https://github.com/LuisLiraC/portfolio" target="_blank"><button type="button"
-              class="btn btn-outline-dark btn-sm mt-2">Repositorio</button></a>
-        </div>
-        <div class="col col-12 col-md-6">
-          <figure class="pb-2 pt-2 pr-2 pl-2">
-            <img src="img/projects/Portfolio.png" width="100%" alt="captura_portfolio">
-          </figure>
-        </div>
+      <div id="projects_list">
+        <!-- Render desde JavaScript -->
       </div>
     </div>
   </section>
 
   <!-- Estudios -->
   <section class="container-fluid pb-4 fadeIn pt-4" id="education">
-    <div class="container">
+    <div class="container hidden">
       <div class="row pt-0">
         <div class="col text-center d-flex justify-content-center align-items-center mb-3 fadeIn">
           <img src="img/down_arrow_white.png" alt="down_arrow" srcset="" height="25px" class=" align-self-center">
@@ -303,15 +96,17 @@
         </div>
       </div>
       <div class="row">
-        <!-- <div class="col-lg-4 col-md-6 col-sm-12 pt-3">
-                    <div class="card bg-light text-center scaleUp" id="card">
-                        <div class="card-body pb-2 pt-2 pl-2 pr-2">
-                            <img src="img/udg_virtual.png" alt="logo_udg_virtual" height="70px" class="mb-2">
-                            <h5 class="card-title mb-1">(En curso) UDG Virtual</h5>
-                            <p class="card-title mb-0">Licenciatura en Desarrollo de Sistemas Web</p>
-                        </div>
-                    </div>
-                </div> -->
+        <!--
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-3">
+          <div class="card bg-light text-center scaleUp" id="card">
+            <div class="card-body pb-2 pt-2 pl-2 pr-2">
+              <img src="img/udg_virtual.png" alt="logo_udg_virtual" height="70px" class="mb-2">
+              <h5 class="card-title mb-1">(En curso) UDG Virtual</h5>
+              <p class="card-title mb-0">Licenciatura en Desarrollo de Sistemas Web</p>
+            </div>
+          </div>
+        </div> 
+        -->
         <div class="col-md-6 col-sm-12 pt-3">
           <div class="card bg-light text-center scaleUp" id="card">
             <div class="card-body pb-2 pt-2 pl-2 pr-2">
@@ -350,121 +145,132 @@
           </div>
         </div>
       </div>
+    </div>
   </section>
 
   <!-- Experiencia -->
-  <section class="container-fluid pt-3ç4 pb-5" id="experience">
+  <section class="container-fluid pt-3 pb-5" id="experience">
     <div class="container">
       <div class="row">
-        <div class="col text-center">
+        <div class="col text-center hidden">
           <img src="img/down_arrow.svg" alt="down_arrow" srcset="" height="25px">
           <h4 class="text-center mt-3 mb-3 ml-3 mr-3 d-inline-block">Experiencia</h4>
           <img src="img/down_arrow.svg" alt="down_arrow" srcset="" height="25px">
         </div>
       </div>
+
       <!-- Startpoint -->
-      <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <a class="nav-item nav-link active" id="startpoint-tab" data-toggle="tab" href="#startpoint" role="tab"
-            aria-controls="startpoint" aria-selected="true">Startpoint México</a>
-          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-startpoint" role="tab"
-            aria-controls="nav-profile" aria-selected="false">Actividades</a>
-        </div>
-      </nav>
-      <div class="tab-content mb-5" id="nav-tabContent">
-        <div class="tab-pane fade show active mt-2 ml-2 text-center" id="startpoint" role="tabpanel"
-          aria-labelledby="startpoint-tab">
-          <img srcset="img/startpoint-logo.png, img/startpoint-logo@2x.png 2x" alt="logo_startpoint" class="mt-2 mb-2">
-          <h4><small>Reclutador TI</small></h4>
-          <p class="mt-3 mb-0">Inicio: 23 de Julio de 2018</p>
-          <p class="mt-0">Fin: 14 de Junio de 2019</p>
-        </div>
-        <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-startpoint" role="tabpanel"
-          aria-labelledby="nav-profile-tab">
-          <p>He trabajado reclutando programadores de diferentes tecnologías para empresas nacionales, multinacionales y
-            start-ups.</p>
-          <p>Los perfiles que he buscado son: Desarrolladores C# .Net, Android, iOs, Java, Ruby on Rails, JavaScript,
-            React.js, Angular, Vue.js, SQL Server, Node.js, Administradores de Bases de datos, Soporte técnico L1 y L2,
-            entre otras.</p>
+      <div class="hidden">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="startpoint-tab" data-toggle="tab" href="#startpoint" role="tab"
+              aria-controls="startpoint" aria-selected="true">Startpoint México</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-startpoint" role="tab"
+              aria-controls="nav-profile" aria-selected="false">Actividades</a>
+          </div>
+        </nav>
+        <div class="tab-content mb-5" id="nav-tabContent">
+          <div class="tab-pane fade show active mt-2 ml-2 text-center" id="startpoint" role="tabpanel"
+            aria-labelledby="startpoint-tab">
+            <img srcset="img/startpoint-logo.png, img/startpoint-logo@2x.png 2x" alt="logo_startpoint" class="mt-2 mb-2">
+            <h4><small>Reclutador TI</small></h4>
+            <p class="mt-3 mb-0">Inicio: 23 de Julio de 2018</p>
+            <p class="mt-0">Fin: 14 de Junio de 2019</p>
+          </div>
+          <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-startpoint" role="tabpanel"
+            aria-labelledby="nav-profile-tab">
+            <p>He trabajado reclutando programadores de diferentes tecnologías para empresas nacionales, multinacionales y
+              start-ups.</p>
+            <p>Los perfiles que he buscado son: Desarrolladores C# .Net, Android, iOs, Java, Ruby on Rails, JavaScript,
+              React.js, Angular, Vue.js, SQL Server, Node.js, Administradores de Bases de datos, Soporte técnico L1 y L2,
+              entre otras.</p>
+          </div>
         </div>
       </div>
+
       <!-- Freelance -->
-      <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <a class="nav-item nav-link active" id="freelance-tab" data-toggle="tab" href="#freelance" role="tab"
-            aria-controls="freelance" aria-selected="true">Freelance</a>
-          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-freelance" role="tab"
-            aria-controls="nav-profile" aria-selected="false">Proyecto</a>
-          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-images" role="tab"
-            aria-controls="nav-profile" aria-selected="false">Capturas</a>
-        </div>
-      </nav>
-      <div class="tab-content mb-5" id="nav-tabContent">
-        <div class="tab-pane fade show active mt-2 ml-2 text-center" id="freelance" role="tabpanel"
-          aria-labelledby="freelance-tab">
-          <img srcset="img/vbnet.png, img/vbnet@2x.png 2x" alt="logo_vbnet" class="mt-2 mb-2">
-          <h4><small>Desarrollador</small></h4>
-          <p class="mt-3 mb-0">Inicio: Marzo 2018</p>
-          <p class="mt-0">Fin: Mayo 2018</p>
-        </div>
-        <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-freelance" role="tabpanel"
-          aria-labelledby="nav-profile-tab">
-          <p>Desarrollo de aplicación de escritorio para administración de pagos a aplicadores de estudios
-            socioeconómicos.</p>
-          <p>Creación de reportes, captura, eliminación y edición de pagos o de datos de aplicadores.</p>
-          <p>Tecnologías usadas: Visual Basic .Net, SQL, Microsoft Access 2016</p>
-        </div>
-        <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-images" role="tabpanel"
-          aria-labelledby="nav-profile-tab">
-          <div class="row">
-            <div class="col col-12 col-sm-6 col-md-4 d-flex">
-              <img class="mb-2 w-100 align-self-center" src="img/projects/vb-project/LogIn.PNG" alt="captura_proyecto">
-            </div>
-            <div class="col col-12 col-sm-6 col-md-4 d-flex align-self-center">
-              <img class="mb-2 w-100 d-flex align-self-center" src="img/projects/vb-project/Menu.PNG"
-                alt="captura_proyecto">
-            </div>
-            <div class="col col-12 col-sm-6 col-md-4 d-flex align-self-center">
-              <img class="mb-2 w-100 d-flex align-self-center" src="img/projects/vb-project/RegPago.PNG"
-                alt="captura_proyecto">
-            </div>
-            <div class="col col-12 col-sm-6 col-md-4 d-flex align-self-center">
-              <img class="mb-2 w-100 d-flex align-self-center" src="img/projects/vb-project/RegVisitador.PNG"
-                alt="captura_proyecto">
+      <div class="hidden">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="freelance-tab" data-toggle="tab" href="#freelance" role="tab"
+              aria-controls="freelance" aria-selected="true">Freelance</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-freelance" role="tab"
+              aria-controls="nav-profile" aria-selected="false">Proyecto</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-images" role="tab"
+              aria-controls="nav-profile" aria-selected="false">Capturas</a>
+          </div>
+        </nav>
+        <div class="tab-content mb-5" id="nav-tabContent">
+          <div class="tab-pane fade show active mt-2 ml-2 text-center" id="freelance" role="tabpanel"
+            aria-labelledby="freelance-tab">
+            <img srcset="img/vbnet.png, img/vbnet@2x.png 2x" alt="logo_vbnet" class="mt-2 mb-2">
+            <h4><small>Desarrollador</small></h4>
+            <p class="mt-3 mb-0">Inicio: Marzo 2018</p>
+            <p class="mt-0">Fin: Mayo 2018</p>
+          </div>
+          <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-freelance" role="tabpanel"
+            aria-labelledby="nav-profile-tab">
+            <p>Desarrollo de aplicación de escritorio para administración de pagos a aplicadores de estudios
+              socioeconómicos.</p>
+            <p>Creación de reportes, captura, eliminación y edición de pagos o de datos de aplicadores.</p>
+            <p>Tecnologías usadas: Visual Basic .Net, SQL, Microsoft Access 2016</p>
+          </div>
+          <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-images" role="tabpanel"
+            aria-labelledby="nav-profile-tab">
+            <div class="row">
+              <div class="col col-12 col-sm-6 col-md-4 d-flex">
+                <img class="mb-2 w-100 align-self-center" src="img/projects/vb-project/LogIn.PNG" alt="captura_proyecto">
+              </div>
+              <div class="col col-12 col-sm-6 col-md-4 d-flex align-self-center">
+                <img class="mb-2 w-100 d-flex align-self-center" src="img/projects/vb-project/Menu.PNG"
+                  alt="captura_proyecto">
+              </div>
+              <div class="col col-12 col-sm-6 col-md-4 d-flex align-self-center">
+                <img class="mb-2 w-100 d-flex align-self-center" src="img/projects/vb-project/RegPago.PNG"
+                  alt="captura_proyecto">
+              </div>
+              <div class="col col-12 col-sm-6 col-md-4 d-flex align-self-center">
+                <img class="mb-2 w-100 d-flex align-self-center" src="img/projects/vb-project/RegVisitador.PNG"
+                  alt="captura_proyecto">
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Conexión Laboral -->
-      <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <a class="nav-item nav-link active" id="conexion-tab" data-toggle="tab" href="#conexion" role="tab"
-            aria-controls="startpoint" aria-selected="true">Conexión Laboral</a>
-          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-conexion" role="tab"
-            aria-controls="nav-profile" aria-selected="false">Actividades</a>
-        </div>
-      </nav>
-      <div class="tab-content mb-0" id="nav-tabContent">
-        <div class="tab-pane fade show active mt-2 ml-2 text-center" id="conexion" role="tabpanel"
-          aria-labelledby="conexion-tab">
-          <img srcset="img/conexion-laboral-logo.png, img/conexion-laboral-logo@2x.png 2x" alt="logo_conexion_laboral"
-            class="mt-2 mb-2">
-          <h4><small>Reclutador / Soporte Técnico</small></h4>
-          <p class="mt-3 mb-0">Inicio: 3 de Noviembre de 2016</p>
-          <p class="mt-0 mb-0">16 de Julio de 2018</p>
-        </div>
-        <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-conexion" role="tabpanel"
-          aria-labelledby="nav-profile-tab">
-          <p class="mb-0"><strong>Reclutamiento:</strong></p>
-          <p>Reclutamiento de diferentes puestos administrativos y operativos. Trato directo con clientes.
-            Administración del portal de psicometrías en linea.</p>
 
-          <p class="mb-0"><strong>Soporte Técnico:</strong></p>
-          <p class="mb-0">Formateo de computadoras, instalación de impresoras en red, atención a usuarios con problemas
-            con software de ofimática, elaboración de reportes de resultados, instalación de software, implementación de
-            respaldos automáticos, entre otras.</p>
+      <!-- Conexión Laboral -->
+      <div class="hidden">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="conexion-tab" data-toggle="tab" href="#conexion" role="tab"
+              aria-controls="startpoint" aria-selected="true">Conexión Laboral</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-conexion" role="tab"
+              aria-controls="nav-profile" aria-selected="false">Actividades</a>
+          </div>
+        </nav>
+        <div class="tab-content mb-0" id="nav-tabContent">
+          <div class="tab-pane fade show active mt-2 ml-2 text-center" id="conexion" role="tabpanel"
+            aria-labelledby="conexion-tab">
+            <img srcset="img/conexion-laboral-logo.png, img/conexion-laboral-logo@2x.png 2x" alt="logo_conexion_laboral"
+              class="mt-2 mb-2">
+            <h4><small>Reclutador / Soporte Técnico</small></h4>
+            <p class="mt-3 mb-0">Inicio: 3 de Noviembre de 2016</p>
+            <p class="mt-0 mb-0">16 de Julio de 2018</p>
+          </div>
+          <div class="tab-pane fade mt-4 ml-2 text-center" id="nav-profile-conexion" role="tabpanel"
+            aria-labelledby="nav-profile-tab">
+            <p class="mb-0"><strong>Reclutamiento:</strong></p>
+            <p>Reclutamiento de diferentes puestos administrativos y operativos. Trato directo con clientes.
+              Administración del portal de psicometrías en linea.</p>
+
+            <p class="mb-0"><strong>Soporte Técnico:</strong></p>
+            <p class="mb-0">Formateo de computadoras, instalación de impresoras en red, atención a usuarios con problemas
+              con software de ofimática, elaboración de reportes de resultados, instalación de software, implementación de
+              respaldos automáticos, entre otras.</p>
+          </div>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -498,6 +304,7 @@
     </div>
   </div>
 
+  <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -508,8 +315,10 @@
     integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://kit.fontawesome.com/fa147b899a.js"></script>
   <script src="js/particle.js"></script>
-  <script src="js/index.js"></script>
+  <!-- <script src="js/index.js"></script> -->
+  <script src="js/index.min.js"></script>
 </body>
 
 </html>
