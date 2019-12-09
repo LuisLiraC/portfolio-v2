@@ -21,8 +21,8 @@ const api = [
         {
           id: 1,
           title: "Carrera de Arquitectura Frontend",
-          badge: "img/badges/golden-badge-arquitecto-front.png",
-          src: "img/diplomas/diploma-arquitecto.png",
+          badge: "https://i.imgur.com/EqZ7qeR.png",
+          src: "https://i.imgur.com/mG7V9Ke.png",
           link: "https://platzi.com/@Luis_LiraC/carrera/42-arquitecto/diploma/detalle/"
         },
         {
